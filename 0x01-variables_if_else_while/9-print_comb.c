@@ -2,15 +2,25 @@
 /**
  * main - Entry point
  *
- * Description:  a program that prints all the numbers of base 16 in lowercase
+ * Description:  prints all possible combinations of single-digit numbers
  *
  * Return: 0 (Success)
  */
 
 int main(void)
-{
+{ int digit = 0;
 
+	while (digit <= 9)
+	{
+		putchar(digit + 48);
 
-
-        return (0);
+		if (digit != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		digit++;
+	}
+	putchar('\n');
+		return (0);
 }
