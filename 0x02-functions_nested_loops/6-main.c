@@ -9,7 +9,7 @@
 int main(void)
 {int r;
 r = _abs(-1);
-rintf("%d\n", r);
+printf("%d\n", r);
 r = _abs(0);
 printf("%d\n", r);
 r = _abs(1);
