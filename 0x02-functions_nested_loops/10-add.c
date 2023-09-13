@@ -4,7 +4,8 @@
  * add - Entry point
  *
  * Description: a function that adds two integers
- * @int: function parameter
+ * @a: function parameter 1
+ * @b: function parameter 2
  * Return: Returns the result.
  */
 
