@@ -1,13 +1,15 @@
 #include "main.h"
- /**
-  * print_sign - Entry point
-  *
-  * Description: a function that prints the sign of a number.
-  *
-  * Return: 1 if n is greater than zero
-  * return 0 if n is equal to zero
-  * return -1 if n is less than zero
-  */
+
+/**
+ * print_sign - Entry point
+ *
+ * Description: a function that prints sign for input.
+ *
+ * @n: takes in interger type input values
+ *
+ * Return: 1 if n is greater than zero
+ * returns 0 if it is equal to zero and - if otherwise
+ */
 int print_sign(int n)
 {
 		if (n > 0)
