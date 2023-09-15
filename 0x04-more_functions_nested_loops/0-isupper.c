@@ -6,11 +6,12 @@
  * @c: chracter value
  *
  * Return: 1 if uppercase
- * and 0 if lower case
+ * and 0 if otherwiswe
  */
-int _isupper(int c);
+int _isupper(int c)
 {
 	if (c >= 65 &&  <= 90)
 		return (1);
 	else
 		return (0);
+}
