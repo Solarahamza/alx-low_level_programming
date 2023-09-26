@@ -3,8 +3,8 @@
 /**
  *  _strspn - a function that gets the length of a prefix substring.
  *
- *   @s:
- *   @accept:
+ *   @s: pointer string
+ *   @accept: pointer string
  *
  *   Return: unsigned int
  */
